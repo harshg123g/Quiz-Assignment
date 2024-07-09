@@ -1,0 +1,89 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ececec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#container {
+ 
+  padding: 60px;
+  text-align: center;
+  width: 350px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 10px 15px 10px  lightblue;
+  background: #8bc4b6;
+  text-align: center;
+  
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+} 
+
+button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#options button {
+  background-color: #6487ac; 
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+#options button:hover {
+  background-color: #0056b3;
+}
+
+#result button {
+  background-color: #eb5c52; 
+}
+
+#result button:hover {
+  background-color: #d32f2f;
+}

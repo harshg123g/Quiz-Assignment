@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="container">
+        <h1>Welcome to the Quiz</h1>
+        <div id="start">
+            <input type="text" id="name" placeholder="Enter your name">
+            <select id="subject">
+                <option value="Choosesubject">Choose your subject</option>
+                <option value="math">Math</option>
+                <option value="science">Science</option>
+                <option value="history">History</option>
+                <option value="geography">Geography</option>
+            </select>
+            <br>
+            <button class="start" onclick="startQuiz()">Start Quiz</button>
+        </div>
+        <div id="quiz" style="display:none;">
+            <div id="question"></div>
+            <div id="options"></div>
+           
+        </div>
+        <div id="result" style="display:none;">
+            <h2 id="score"></h2>
+            <button onclick="restartQuiz()">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="scripte.js"></script>
+</body>
+</html>
